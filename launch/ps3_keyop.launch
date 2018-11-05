@@ -1,0 +1,5 @@
+<launch>
+    <!-- Launcher to control the bot with PS4 Joystick (launch bringup first)  -->
+    <include file="$(find ps3joy)/launch/ps3.launch"/>
+    <node pkg="CorreiaR" name="controller" type="controller.py" output="screen"/>
+</launch>

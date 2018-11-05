@@ -1,0 +1,4 @@
+<launch>
+    <!-- Launcher to start the auto navigation (launch bringup first)  -->
+    <node pkg="CorreiaR" name="auto_navigation" type="auto_navigation.py" output="screen"/>
+</launch>
